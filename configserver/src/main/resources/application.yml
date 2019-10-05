@@ -1,0 +1,18 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: configserver
+  cloud:
+    config:
+      server:
+        git:
+          uri: http://github.com/test/76.git
+          search-paths: config
+          username: 1716617301@qq.com
+          passphrase: Element4ry
+      label: master
+eureka:
+  client:
+    service-url:
+      defaultZone: http:localhost:8761/eureka/
