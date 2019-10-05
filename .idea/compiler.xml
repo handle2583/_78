@@ -17,12 +17,10 @@
         <module name="nativeconfigueserver" />
         <module name="provider" />
         <module name="ribbon" />
+        <module name="zipkin" />
         <module name="zipkinclient" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="zipkin" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
