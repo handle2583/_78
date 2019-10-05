@@ -19,6 +19,7 @@
         <module>nativeconfigueserver</module>
         <module>nativeconfigueclient</module>
         <module>configserver</module>
+        <module>configclinet</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

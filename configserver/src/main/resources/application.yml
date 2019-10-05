@@ -7,7 +7,7 @@ spring:
     config:
       server:
         git:
-          uri: http://github.com/test/76.git
+          uri: http://github.com/handle2583/_78.git
           search-paths: config
           username: 1716617301@qq.com
           passphrase: Element4ry
