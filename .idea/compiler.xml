@@ -17,8 +17,13 @@
         <module name="nativeconfigueserver" />
         <module name="provider" />
         <module name="ribbon" />
-        <module name="zipkin" />
         <module name="zipkinclient" />
+      </profile>
+      <profile name="Annotation profile for _78" enabled="true">
+        <sourceOutputDir name="../zipkin1/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../zipkin1/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="zipkin" />
       </profile>
     </annotationProcessing>
   </component>

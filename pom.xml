@@ -22,7 +22,6 @@
         <module>configclinet</module>
         <module>zipkinclient</module>
         <module>zipkin</module>
-        <module>zipkin</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
